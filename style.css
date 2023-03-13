@@ -50,9 +50,9 @@ body {
     
           .box:hover {
             transform: scale(1.1);
-            border-color: #001485;
-            background-color: #1800a3;
-            color: #2800da;
+            border-color: #46032a;
+            background-color: #46032a;
+            color: #46032a;
           }
     
           .box p {

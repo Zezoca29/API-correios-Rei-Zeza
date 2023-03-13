@@ -1,0 +1,28 @@
+#header {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+#table-container {
+    width: 80%;
+    margin: 50px auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+#table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#table-container td,
+#table-container th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+#table-container th {
+    background-color: #ccc;
+}

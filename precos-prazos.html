@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Preços e Prazos</title>
+    <link rel="stylesheet" href="style5.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <h2>Preços e Prazos</h2>
+        <div id="encomenda-form">
+            <label for="destino">Destino:</label>
+            <select id="destino" name="destino">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+            </select>
+
+            <label for="numero-encomenda">Número da Encomenda:</label>
+            <input type="text" id="numero-encomenda" name="numero-encomenda" />
+
+            <button>Calcular</button>
+        </div>
+
+        <div id="encomenda-result">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Preço</th>
+                        <th>Prazo de Entrega</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>R$ 10,00</td>
+                        <td>2 dias úteis</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="encomenda-result">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Destino</th>
+                        <th>Número da Encomenda</th>
+                        <th>Preço</th>
+                        <th>Prazo de Entrega</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>São Paulo</td>
+                        <td>1234567890</td>
+                        <td>R$ 25,00</td>
+                        <td>3 dias úteis</td>
+                    </tr>
+                    <tr>
+                        <td>Rio de Janeiro</td>
+                        <td>0987654321</td>
+                        <td>R$ 30,00</td>
+                        <td>4 dias úteis</td>
+                    </tr>
+                    <tr>
+                        <td>Belo Horizonte</td>
+                        <td>2468013579</td>
+                        <td>R$ 20,00</td>
+                        <td>2 dias úteis</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>

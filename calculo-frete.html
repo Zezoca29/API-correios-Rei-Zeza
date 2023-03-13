@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cálculo de Frete</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;">Cálculo de Frete</h1>
+    <div id="container">
+        <label for="cep-origem">CEP de origem:</label>
+        <input type="text" id="cep-origem" name="cep-origem">
+
+        <label for="cep-destino">CEP de destino:</label>
+        <input type="text" id="cep-destino" name="cep-destino">
+
+        <label for="peso">Peso da encomenda (em kg):</label>
+        <input type="text" id="peso" name="peso">
+
+        <label for="servico">Tipo de serviço:</label>
+        <select id="servico" name="servico">
+            <option value="sedex">SEDEX</option>
+            <option value="pac">PAC</option>
+            <option value="transportadora">Transportadora</option>
+        </select>
+
+        <button id="calcular-frete">Calcular Frete</button>
+
+        <div id="resultado-frete"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

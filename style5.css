@@ -1,0 +1,73 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: center;
+}
+
+#encomenda-form {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#encomenda-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#encomenda-form input[type="text"],
+#encomenda-form select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#encomenda-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#encomenda-result {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#encomenda-result h3 {
+    margin-top: 10px;
+}
+
+#encomenda-result p {
+    margin: 0;
+}

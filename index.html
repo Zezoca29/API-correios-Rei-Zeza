@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>API dos Correios</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="header">
+        <img src="./img/logoinova1.png">
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <button class="btn" onclick="location.href='./paginas/buscacep.html'"><span>Buscar
+                    CEP</span></button>
+        </div>
+        <div class="box">
+            <button class="btn" onclick="location.href='./paginas/rastreamento.html'"><span>Rastreamento</span></button>
+        </div>
+        <div class="box">
+            <button class="btn" onclick="location.href='./paginas/calculo-frete.html'"><span>Cálculo de
+                    Frete</span></button>
+        </div>
+        <div class="box">
+            <button class="btn" onclick="location.href='./paginas/precos-prazos.html'"><span>Preços e
+                    Prazos</span></button>
+        </div>
+    </div>
+
+
+    </div>
+    <div id="root"></div>
+    <script>
+        ReactDOM.render(React.createElement(app), document.getElementById('root'));
+    </script>
+    <script src="https://unpkg.com/react@17.0.2/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>

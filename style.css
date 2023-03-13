@@ -50,7 +50,7 @@ body {
     
           .box:hover {
             transform: scale(1.1);
-            border-color: #46032a;
+            border-color: #000000;
             background-color: #46032a;
             color: #46032a;
           }
